@@ -227,7 +227,9 @@ h6 {
   padding-left: 1.2rem;
   padding-right: 1.2rem;
 }
-
+.site-header .nav-item .active {
+  color: black !important;
+}
 .site-header a {
   color: #fff;
   text-transform: capitalize;
@@ -263,11 +265,11 @@ h6 {
 }
 .site-header .nav-social a {
   font-size: 18px;
-  color: #fff;
+  color: black;
   transition: 0.3s;
 }
 .site-header .nav-social a:hover {
-  color: #e8e9f3;
+  color: rgba(0, 0, 0, 0.846);
 }
 /***********************************************************
   5. Hero Area
