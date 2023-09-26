@@ -1,8 +1,5 @@
 import "./globals.css";
 import Script from "next/script";
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "EGK | Portfolio",
@@ -18,23 +15,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* <!-- Meta --> */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-        {/* <!-- Favicon --> */}
-        <link
-          rel="shortcut icon"
-          href="image/favicon.ico"
-          type="image/x-icon"
-        />
-        <link rel="icon" href="image/favicon.ico" type="image/x-icon" />
-        {/* <!-- Fonts --> */}
-        <link
-          rel="preconnect"
-          href="../../../../fonts.googleapis.com/index.html"
-        />
+        <link rel="shortcut icon" href="/image/file.jpeg" type="image/x-icon" />
+        <link rel="icon" href="/image/file.jpeg" type="image/x-icon" />
       </head>
-      <body className={`${inter.className} home-minimal dark-mode `}>
+      <body className="home-minimal dark-mode">
         {children}
         <Script src="js/jquery.js"></Script>
         <Script src="js/popper.min.js"></Script>

@@ -227,9 +227,7 @@ h6 {
   padding-left: 1.2rem;
   padding-right: 1.2rem;
 }
-.site-header .nav-item .active {
-  color: #e8e9f3;
-}
+
 .site-header a {
   color: #fff;
   text-transform: capitalize;
@@ -1574,9 +1572,7 @@ h6 {
   .site-header .navbar-collapse {
     background: #fff;
   }
-  .site-header .nav-item .active {
-    color: #c6c9e2;
-  }
+
   .site-header .nav-social {
     padding: 1.2rem;
   }
@@ -1584,10 +1580,10 @@ h6 {
     content: none;
   }
   .site-header .nav-social a {
-    color: #c6c9e2;
+    color: black;
   }
   .site-header .nav-social a:hover {
-    color: #b6b9d9;
+    color: rgb(47, 47, 47);
   }
   .hero-area {
     text-align: center;
